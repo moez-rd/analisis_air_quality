@@ -31,7 +31,7 @@ def create_by_last_month_df(df):
     return last_month_df
 
 
-all_df = pd.read_csv("/home/sl3ae/Codes/bangkit/dicoding/belajar_analisis_data_dengan_python/all_data.csv")
+all_df = pd.read_csv("all_data.csv")
 
 all_df["date"] = pd.to_datetime(all_df["date"])
 
