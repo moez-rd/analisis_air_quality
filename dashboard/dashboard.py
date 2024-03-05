@@ -31,7 +31,7 @@ def create_by_last_month_df(df):
     return last_month_df
 
 
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("./dashboard/all_data.csv")
 
 all_df["date"] = pd.to_datetime(all_df["date"])
 
